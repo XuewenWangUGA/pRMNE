@@ -10,7 +10,9 @@ Usage:
 
 `python AllelExclusionProb.py [options]`
 
-e.g., python3 AllelExclusionProb.py -d databaseAllele.txt -e evidenceAllele.txt -s suspectAllele.txt -t threads > outResults.txt
+e.g., 
+
+`python3 AllelExclusionProb.py -d databaseAllele.txt -e evidenceAllele.txt -s suspectAllele.txt -t threads > outResults.txt`
 
 Options:
     
