@@ -4,6 +4,15 @@ The probability of Not Excluding a Random Man based on alleles
 A novel bioinformatics tool for calculating the probability of Random Man Not Excluded (pRMNE) based on multiple loci alleles and popualtion frequency.
 The tool is programmed in Python3.
 
+## Installation
+
+The tool is prograqmmed in Pyhton3.8. No installation is needed. It can be run after downloading from Github using the following command in a terminal.
+
+` git clone https://github.com/XuewenWangUGA/pRMNE`
+
+
+or click the download button in the Github page to download the .zip file , then uncompressed the file.
+
 ## How to use
 
 Usage: 
@@ -12,7 +21,7 @@ Usage:
 
 e.g., 
 
-`python3 AllelExclusionProb.py -d databaseAllele.txt -e evidenceAllele.txt -s suspectAllele.txt -t threads > outResults.txt`
+`python3 AllelExclusionProb.py -d databaseAllele.txt -e evidenceAllele.txt -s suspectAllele.txt -t 2 > outResults.txt`
 
 Options:
     
