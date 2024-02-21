@@ -6,9 +6,14 @@ The tool is programmed in Python3.
 
 ## How to use
 
-Usage: python AllelExclusionProb.py [options]
+Usage: 
+
+`python AllelExclusionProb.py [options]`
+
 e.g., python3 AllelExclusionProb.py -d databaseAllele.txt -e evidenceAllele.txt -s suspectAllele.txt -t threads > outResults.txt
+
 Options:
+    
         -h, --help: show this help message and exit
         -d, --databaseAlle: string, required input file of dataBase with Allele count data, tab delimited
         -e, --evidenceAlle: string, required input file of observed evidence Alleles, tab delimited
@@ -16,5 +21,7 @@ Options:
         -l, --log10: flag only, no value,output the probability after log10 conversion if -l is given.
         -t, --threads: int, the number of parallelized computing threads, default 2
          the result will be output to standard output/screen. use > to redirect to a file
+    
+## Support
 Version: 1.1.0, Dec,5th,2023
 Support: xwang.kib@gmail.com
