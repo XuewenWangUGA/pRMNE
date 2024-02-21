@@ -11,7 +11,7 @@ The tool is prograqmmed in Pyhton v3.9. No installation is needed. It can be run
 ` git clone https://github.com/XuewenWangUGA/pRMNE`
 
 
-or click the download button in the Github page to download the .zip file , then uncompressed the file.
+or click the download button in the Github page to download the .zip file , then uncompressed the downloaded file.
 
 ## How to use
 
