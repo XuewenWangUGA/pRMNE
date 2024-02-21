@@ -66,4 +66,5 @@ e.g. for AFR (Africa popupation): 20 CODIS loci and  All loci combined at a p va
 
 ## Support
 Version: 1.1.0, Dec,5th,2023
-Support: xwang.kib@gmail.com
+
+Contact: xwang.kib@gmail.com
