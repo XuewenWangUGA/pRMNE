@@ -17,11 +17,11 @@ or click the download button in the Github page to download the .zip file , then
 
 Usage: 
 
-`python AllelExclusionProb.py [options]`
+`python pRMNE.py [options]`
 
 e.g., 
 
-`python3 AllelExclusionProb.py -d databaseAllele.txt -e evidenceAllele.txt -s suspectAllele.txt -t 2 > outResults.txt`
+`python3 pRMNE.py -d databaseAllele.txt -e evidenceAllele.txt -s suspectAllele.txt -t 2 > outResults.txt`
 
 Options:
     
@@ -63,8 +63,11 @@ e.g. for AFR (Africa popupation): 20 CODIS loci and  All loci combined at a p va
     AFR	All_loci	1.00000000000000000000E+0	8.23071958151542135332E-36	1.00000000000000000000E+0	4.38875716538970662812E-41	1.00000000000000000000E+0	4.38875716538970662812E-41
 
 
+## Funding
+
+This work was sponsored in part by award 15PNIJ-21-GG-04159-RESS, awarded by the National Institute of Justice, Office of Justice Programs, U.S. Department of Justice.
 
 ## Support
-Version: 1.1.0, Dec,5th,2023
 
+Version: 1.1.0, Dec,5th,2023
 Contact: xwang.kib@gmail.com
