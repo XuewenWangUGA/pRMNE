@@ -13,6 +13,13 @@ The tool is programmed in Pyhton v3.9. No installation is needed. It can be run 
 
 or click the download button on the GitHub page to download the .zip file, then uncompress the downloaded file.
 
+## Dependencies
+The pRMNE requires Python packages. The tested Python and packages are Python version 3.9.13, scipy 1.11.4, pandas 2.1.3. To install these packages before running the pRMNE:
+
+`pip install scipy`
+
+`pip install pandas`
+
 ## How to use
 
 Usage: 
@@ -35,7 +42,7 @@ Options:
     
 ## Output
 
-The output is a tab separated text file. The data is the not excluded and exclusion probability of a random man in each super population at each STR locus site and all combined sites for  26 populations (FIN,CDX,IBS,MXL,CHB,CHS,CEU,JPT,ESN,KHV,TSI,CLM,YRI,GBR,PEL,STU,BEB,GIH,PJL,MSL,ITU,GWD,LWK,ASW,PUR,ACB), 5 supperpopulations (EAS, EUR, AFR,SAS, AMR).
+The output is a tab-separated text file. The data is the not excluded and exclusion probability of a random man in each super population at each STR locus site and all combined sites for  26 populations (FIN,CDX,IBS,MXL,CHB,CHS,CEU,JPT,ESN,KHV,TSI,CLM,YRI,GBR,PEL,STU,BEB,GIH,PJL,MSL,ITU,GWD,LWK,ASW,PUR,ACB), 5 supperpopulations (EAS, EUR, AFR,SAS, AMR).
 
 e.g. for AFR (Africa population): 20 CODIS loci and  All loci combined at a p-value 8.23071958151542135332E-36
 
@@ -70,4 +77,4 @@ This work was sponsored in part by award 15PNIJ-21-GG-04159-RESS, awarded by the
 ## Support
 
 Version: 1.1.0, Dec,5th,2023
-Contact: xwang.kib@gmail.com
+Contact: xwang.kib@gmail.com or xuewen.wang@unthsc.edu 
