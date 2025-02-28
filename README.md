@@ -73,7 +73,7 @@ e.g. for AFR (Africa population): 20 CODIS loci and  All loci combined at a p-va
 
 ## Funding
 
-This work was sponsored in part by award 15PNIJ-21-GG-04159-RESS, awarded by the National Institute of Justice, Office of Justice Programs, U.S. Department of Justice.
+This work was sponsored in part by the award 15PNIJ-21-GG-04159-RESS, awarded by the National Institute of Justice, Office of Justice Programs, U.S. Department of Justice.
 
 ## Support
 
