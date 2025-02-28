@@ -1,7 +1,8 @@
 # pRMNE
-The probability of Random Man Not Excluding (pRMNE) in DNA mixture
+# The probability of Random Man Not Excluding (pRMNE)
 
-A novel bioinformatics and statistical tool for calculating the probability of Random Man Not Excluded (pRMNE) based on multiple loci alleles and population frequency.
+A novel bioinformatics and statistical tool for calculating the pRMNE of suspect's alleles in a DNA mixture at a scene based on multiple loci alleles and population frequency. The output provides the discrimination power of DNA forensics. 
+
 The tool is programmed in Python3.
 
 ## Installation
