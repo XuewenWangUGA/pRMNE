@@ -27,7 +27,7 @@ Usage:
 
 `python pRMNE.py [options]`
 
-e.g., 
+e.g. using the testing data
 
 `python3 pRMNE.py -d databaseAllele.txt -e evidenceAllele.txt -s suspectAllele.txt -t 2 > outResults.txt`
 
