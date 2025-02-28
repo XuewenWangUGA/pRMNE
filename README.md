@@ -1,17 +1,17 @@
 # pRMNE
-The probability of Not Excluding a Random Man  (pMNE)
+The probability of Random Man Not Excluding (pRMNE) in DNA mixture
 
-A novel bioinformatics and statiatical tool for calculating the probability of Random Man Not Excluded (pRMNE) based on multiple loci alleles and popualtion frequency.
+A novel bioinformatics and statistical tool for calculating the probability of Random Man Not Excluded (pRMNE) based on multiple loci alleles and population frequency.
 The tool is programmed in Python3.
 
 ## Installation
 
-The tool is prograqmmed in Pyhton v3.9. No installation is needed. It can be run after downloading from Github using the following command in a terminal.
+The tool is programmed in Pyhton v3.9. No installation is needed. It can be run after downloading from Github using the following command in a command terminal.
 
 ` git clone https://github.com/XuewenWangUGA/pRMNE`
 
 
-or click the download button in the Github page to download the .zip file , then uncompressed the downloaded file.
+or click the download button on the GitHub page to download the .zip file, then uncompress the downloaded file.
 
 ## How to use
 
@@ -31,13 +31,13 @@ Options:
         -s, --suspectAlle: string, required input file of suspect Alleles, tab delimited
         -l, --log10: flag only, no value,output the probability after log10 conversion if -l is given.
         -t, --threads: int, the number of parallelized computing threads, default 2
-         the result will be output to standard output/screen. use > to redirect to a file
+         the result will be output to the standard output/screen. use > to redirect to a file
     
 ## Output
 
-The output is a tab seperatedly text file. The data is the exclusion probability of a random man in each super population at each STR locus site and all combined sites for  26 populations (FIN,CDX,IBS,MXL,CHB,CHS,CEU,JPT,ESN,KHV,TSI,CLM,YRI,GBR,PEL,STU,BEB,GIH,PJL,MSL,ITU,GWD,LWK,ASW,PUR,ACB), 5 supperpopulations (EAS, EUR, AFR,SAS, AMR).
+The output is a tab separated text file. The data is the not excluded and exclusion probability of a random man in each super population at each STR locus site and all combined sites for  26 populations (FIN,CDX,IBS,MXL,CHB,CHS,CEU,JPT,ESN,KHV,TSI,CLM,YRI,GBR,PEL,STU,BEB,GIH,PJL,MSL,ITU,GWD,LWK,ASW,PUR,ACB), 5 supperpopulations (EAS, EUR, AFR,SAS, AMR).
 
-e.g. for AFR (Africa popupation): 20 CODIS loci and  All loci combined at a p value 8.23071958151542135332E-36
+e.g. for AFR (Africa population): 20 CODIS loci and  All loci combined at a p-value 8.23071958151542135332E-36
 
     Population	Locus	Probability_of_Exclusion(PE)	Probability_of_Inclusion(PI)	Adjusted_PE²	Adjusted_PI²	Adjusted_PE³	Adjusted_PI³
     AFR	CSF1PO	9.99943467691785855616E-1	5.65323082141443835152E-5	9.93217121942747780534E-1	6.78287805725221946563E-3	9.93217121942747780534E-1	6.78287805725221946563E-3
