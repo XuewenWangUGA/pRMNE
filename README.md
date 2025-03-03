@@ -21,6 +21,14 @@ The pRMNE requires Python packages. The tested Python and packages are Python ve
 
 `pip install pandas`
 
+## Systems
+
+The pRMNE can be run in the following computing systems:
+
+* Windows
+* MacOS
+* Linux
+
 ## How to use
 
 Usage: 
