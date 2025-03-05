@@ -31,7 +31,7 @@ The pRMNE can be run in the following computing systems:
 
 ## Command of interface
 
-The tool comes with with a command interface
+The tool comes with a command interface
 
 ![What is this](pRMNE.png)
 
