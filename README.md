@@ -33,7 +33,7 @@ The pRMNE can be run in the following computing systems:
 
 The tool comes with with a command interface
 
-![What is this](pRMNE.PNG)
+![What is this](pRMNE.png)
 
 ## How to use
 
