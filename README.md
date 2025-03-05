@@ -29,11 +29,20 @@ The pRMNE can be run in the following computing systems:
 * MacOS
 * Linux
 
-## Command of interface
+## Interface
 
-The tool comes with a command interface
+The tool comes with a command interface and graphic interface. User can use either to run the tool.
 
-![What is this](pRMNE.png)
+
+For graphic interface: to type the command in a command terminal
+
+`python pRMNE_GUI.py`
+
+![Graphic](pRMNE_GUI.png)
+
+For command interface: See section blow.
+
+![Command](pRMNE.png)
 
 ## How to use
 
