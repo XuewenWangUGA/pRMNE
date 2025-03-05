@@ -1,17 +1,33 @@
 # pRMNE
-The probability of Not Excluding a Random Man  (pMNE)
+# The probability of Random Man Not Excluding (pRMNE)
 
-A novel bioinformatics and statiatical tool for calculating the probability of Random Man Not Excluded (pRMNE) based on multiple loci alleles and popualtion frequency.
+A novel bioinformatics and statistical tool for calculating the pRMNE of suspect's alleles in a DNA mixture at a scene based on multiple loci alleles and population frequency. The output provides the statistical discrimination power for DNA forensics. 
+
 The tool is programmed in Python3.
 
 ## Installation
 
-The tool is prograqmmed in Pyhton v3.9. No installation is needed. It can be run after downloading from Github using the following command in a terminal.
+The tool is programmed in Pyhton v3.9. No installation is needed. It can be run after downloading from Github using the following command in a command terminal.
 
 ` git clone https://github.com/XuewenWangUGA/pRMNE`
 
 
-or click the download button in the Github page to download the .zip file , then uncompressed the downloaded file.
+or click the download button on the GitHub page to download the .zip file, then uncompress the downloaded file.
+
+## Dependencies
+The pRMNE requires Python packages. The tested Python and packages are Python version 3.9.13, scipy 1.11.4, pandas 2.1.3. To install these packages before running the pRMNE:
+
+`pip install scipy`
+
+`pip install pandas`
+
+## Systems
+
+The pRMNE can be run in the following computing systems:
+
+* Windows
+* MacOS
+* Linux
 
 ## How to use
 
@@ -19,7 +35,7 @@ Usage:
 
 `python pRMNE.py [options]`
 
-e.g., 
+e.g. using the testing data
 
 `python3 pRMNE.py -d databaseAllele.txt -e evidenceAllele.txt -s suspectAllele.txt -t 2 > outResults.txt`
 
@@ -31,13 +47,13 @@ Options:
         -s, --suspectAlle: string, required input file of suspect Alleles, tab delimited
         -l, --log10: flag only, no value,output the probability after log10 conversion if -l is given.
         -t, --threads: int, the number of parallelized computing threads, default 2
-         the result will be output to standard output/screen. use > to redirect to a file
+         the result will be output to the standard output/screen. use > to redirect to a file
     
 ## Output
 
-The output is a tab seperatedly text file. The data is the exclusion probability of a random man in each super population at each STR locus site and all combined sites for  26 populations (FIN,CDX,IBS,MXL,CHB,CHS,CEU,JPT,ESN,KHV,TSI,CLM,YRI,GBR,PEL,STU,BEB,GIH,PJL,MSL,ITU,GWD,LWK,ASW,PUR,ACB), 5 supperpopulations (EAS, EUR, AFR,SAS, AMR).
+The output is a tab-separated text file. The data is the not excluded and exclusion probability of a random man in each super population at each STR locus site and all combined sites for  26 populations (FIN,CDX,IBS,MXL,CHB,CHS,CEU,JPT,ESN,KHV,TSI,CLM,YRI,GBR,PEL,STU,BEB,GIH,PJL,MSL,ITU,GWD,LWK,ASW,PUR,ACB), 5 supperpopulations (EAS, EUR, AFR,SAS, AMR).
 
-e.g. for AFR (Africa popupation): 20 CODIS loci and  All loci combined at a p value 8.23071958151542135332E-36
+e.g. for AFR (Africa population): 20 CODIS loci and  All loci combined at a p-value 8.23071958151542135332E-36
 
     Population	Locus	Probability_of_Exclusion(PE)	Probability_of_Inclusion(PI)	Adjusted_PE²	Adjusted_PI²	Adjusted_PE³	Adjusted_PI³
     AFR	CSF1PO	9.99943467691785855616E-1	5.65323082141443835152E-5	9.93217121942747780534E-1	6.78287805725221946563E-3	9.93217121942747780534E-1	6.78287805725221946563E-3
@@ -65,9 +81,9 @@ e.g. for AFR (Africa popupation): 20 CODIS loci and  All loci combined at a p va
 
 ## Funding
 
-This work was sponsored in part by award 15PNIJ-21-GG-04159-RESS, awarded by the National Institute of Justice, Office of Justice Programs, U.S. Department of Justice.
+This work was sponsored in part by the award 15PNIJ-21-GG-04159-RESS, awarded by the National Institute of Justice, Office of Justice Programs, U.S. Department of Justice.
 
 ## Support
 
 Version: 1.1.0, Dec,5th,2023
-Contact: xwang.kib@gmail.com
+Contact: xwang.kib@gmail.com or xuewen.wang@unthsc.edu 
