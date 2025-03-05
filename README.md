@@ -29,6 +29,12 @@ The pRMNE can be run in the following computing systems:
 * MacOS
 * Linux
 
+## Command of interface
+
+The tool comes with with a command interface
+
+![What is this](pRMNE.PNG)
+
 ## How to use
 
 Usage: 
